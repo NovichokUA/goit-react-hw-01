@@ -26,3 +26,13 @@ img {
   display: block;
   max-width: 100%;
 }
+
+main {
+  background-color: rgb(243, 231, 202);
+  padding: 8px 32px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+
+}

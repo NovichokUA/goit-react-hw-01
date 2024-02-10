@@ -7,7 +7,7 @@ export const FriendList = ({ friends }) => {
       <ul className={css.listItem}>
         {friends.map((friend) => {
           return (
-            <li key={friend.id}>
+            <li key={friend.id} className={css.liItem}>
               <FriendListItem item={friend} />
             </li>
           );

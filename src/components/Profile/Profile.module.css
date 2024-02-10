@@ -1,3 +1,10 @@
+.container {
+    margin: 32px auto;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: rgb(255, 255, 255) -0.0625rem -0.0625rem 0.0625rem, rgb(186, 190, 204) 0.0625rem 0.0625rem 0.0625rem;
+}
+
 .mainContainer {
     overflow: hidden;
     border: 1px solid black;
